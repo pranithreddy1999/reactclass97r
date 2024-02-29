@@ -9,8 +9,8 @@ import TableCoponent from './components/functional-components/table/table-compon
 function App(){
   return(
     <div>
-      <ListItems/>
-      <OrderedList/>
+      {/* <ListItems/>
+      <OrderedList/> */}
       <TableCoponent/>
     </div>
   )
