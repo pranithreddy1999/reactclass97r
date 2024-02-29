@@ -14,7 +14,7 @@ class ParentComponent extends Component{
         })
     }
     render(){
-        console.log("parent render")
+        // console.log("parent render")
         return(
             <>
             <h3>Parent component</h3>  

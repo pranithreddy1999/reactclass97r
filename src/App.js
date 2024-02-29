@@ -3,6 +3,8 @@ import './App.css';
 import ListItems from './components/functional-components/lists/unorder-list/list-items';
 import OrderedList from './components/functional-components/lists/order-list/ordered-list';
 import TableCoponent from './components/functional-components/table/table-component';
+import CirclTask from './components/class-components/home work/circle-task';
+import ParentComponent from './components/class-components/pureComponents/parent';
 
 
 
@@ -11,7 +13,8 @@ function App(){
     <div>
       {/* <ListItems/>
       <OrderedList/> */}
-      <TableCoponent/>
+      {/* <TableCoponent/> */}
+      <ParentComponent/>
     </div>
   )
 }
