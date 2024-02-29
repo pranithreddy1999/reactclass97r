@@ -1,20 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import ListItems from './components/functional-components/lists/unorder-list/list-items';
-import OrderedList from './components/functional-components/lists/order-list/ordered-list';
-import TableCoponent from './components/functional-components/table/table-component';
-import CirclTask from './components/class-components/home work/circle-task';
-import ParentComponent from './components/class-components/pureComponents/parent';
 
 
+
+import ProductsApi from './components/functionalComponents/axios/products';
+import ImageComponent from './components/class-components/image/image-component';
+import Products from './components/class-components/products/products';
 
 function App(){
   return(
     <div>
-      {/* <ListItems/>
-      <OrderedList/> */}
-      {/* <TableCoponent/> */}
-      <ParentComponent/>
+      
+      <Products/>
     </div>
   )
 }
